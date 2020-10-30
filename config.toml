@@ -1,0 +1,48 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "<arindam />"
+theme = "hermit"
+
+
+[author]
+  name = "Arindam Sengupta"
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  homeSubtitle = "A minimal and fast theme for Hugo."
+
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  bgImg = "/static/images/bg.jpg"  # Homepage background-image URL
+
+  relatedPosts = false  # Add a related content section to all single posts page
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/arinsg"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/arinsg"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
